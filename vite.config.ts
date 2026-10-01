@@ -28,7 +28,7 @@ export default defineConfig(({ command, mode }) => ({
       },
       server: { entry: "server" },
     }),
-    ...(command === "build" ? [nitro({ defaultPreset: "cloudflare-module" })] : []),
+    ...(command === "build" ? [nitro({ defaultPreset: "vercel" })] : []),
     react(),
   ],
   css: { transformer: "lightningcss" },
