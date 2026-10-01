@@ -25,7 +25,7 @@ export const products: Product[] = [
     metric: "Demo · 1.2k tries",
     action: "Try demo",
 
-    downloadUrl: "/l&p_taskmanager.exe",
+    downloadUrl: "/public/l&p_taskmanager.exe",
 
     highlights: [
       "Organize tasks in one focused workspace",
