@@ -110,7 +110,7 @@ function HomePage() {
               <p className="font-mono text-[40px] uppercase text-primary">
                 Our First Product ...
               </p>
-              <h2 className="mt-3 text-4xl font-bold md:text-5xl">Lucky & Pauer Smart TaskManager Desktop Application.</h2>
+              <h2 className="mt-3 text-4xl font-bold md:text-5xl">Lunar & Pauer Smart TaskManager Desktop Application.</h2>
             </div>
             <Button asChild variant="outline">
               <Link to="/explore">
