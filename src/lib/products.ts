@@ -25,7 +25,7 @@ export const products: Product[] = [
     metric: "Demo · 1.2k tries",
     action: "Try demo",
 
-    downloadUrl: "/L&P_TaskManager.exe",
+    downloadUrl: "/LunarFlow.exe",
 
     highlights: [
       "Organize tasks in one focused workspace",
