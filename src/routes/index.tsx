@@ -12,12 +12,12 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "L&P is a home for vibe-coded products. Build with AI, publish your creation, and put it in front of real users.",
+          "L&P is a home for Agentic products. Build with AI, publish our creation, and put it in front of real users.",
       },
       { property: "og:title", content: "L&P — Build It. Ship It. Let People Use It." },
       {
         property: "og:description",
-        content: "Build with AI. Publish for real users. Turn your experiments into products.",
+        content: "Build with AI. Publish for real users. Turn our motivations into products.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -26,7 +26,7 @@ export const Route = createFileRoute("/")({
   component: HomePage,
 });
 
-const pipeline = ["Idea", "Vibe code", "Build", "Publish", "Users", "Feedback", "V2"];
+const pipeline = ["Idea", "Plan", "Build", "Publish", "Users", "Feedback", "V2"];
 const feed = [
   "Published a new build",
   "Released v0.3",
@@ -45,14 +45,14 @@ function HomePage() {
           <div className="animate-reveal lg:col-span-7">
             <div className="mb-7 inline-flex items-center gap-2 border border-primary/30 bg-accent px-3 py-1 font-mono text-[10px] uppercase text-primary">
               <span className="size-2 rounded-full bg-primary" />
-              The home for vibe-coded products
+              An Agentic platform
             </div>
             <h1 className="text-6xl font-bold leading-[.9] md:text-8xl">
-              Vibe Code It.
+              Lunar<span className="text-primary"> & </span><span> Pauer`</span>
               <br />
-              <span className="text-primary">Ship It.</span>
+              <span className="text-primary">Agentic</span>
               <br />
-              Let People Use It.
+              Platform that builds ...
             </h1>
             <p className="mt-8 max-w-xl text-lg leading-8 text-muted-foreground">
               Build with AI. Publish for real users. Turn your experiments into products.
@@ -138,7 +138,7 @@ function HomePage() {
           <h3 className="text-3xl font-medium tracking-tight text-white">
             {product.name}
           </h3>
-          <div aria-hidden="true" className="mt-4 h-1 w-16 bg-primary" />
+          <div aria-hidden="true" className="mt-4 h-1 w-37 bg-primary" />
 
           <p className="mt-5 max-w-lg text-sm leading-7 text-white/55">
             {product.description}
@@ -184,8 +184,8 @@ function HomePage() {
       <div className="relative min-h-[320px] border-t border-white/10 bg-black/30 lg:min-h-[420px] lg:border-l lg:border-t-0">
         <div className="absolute left-5 top-5 z-10 flex items-center gap-2 rounded-full border border-white/10 bg-black/60 px-3 py-1.5 backdrop-blur">
           <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-red-400" />
-          <span className="text-[10px] uppercase tracking-[0.2em] text-white/60">
-            Live Demo
+          <span className="text-[10px] uppercase tracking-[0.2em] Ftext-white/60 italic">
+            L&P
           </span>
         </div>
 
